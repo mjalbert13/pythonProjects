@@ -9,3 +9,9 @@ length = len(studentGrades)
 mean = mysum/length
 
 print(mean)
+
+student_grade ={
+    "marry":80,
+    "bob": 90,
+    "joe": 70
+}
