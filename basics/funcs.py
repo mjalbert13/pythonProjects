@@ -8,4 +8,15 @@ def mean(myList):
 
 
 studentGrages = {"bill": 10, "joe": 7, "will": 9.5}
-print(mean(studentGrages))
+
+def weather(temp):
+    if temp > 32:
+        return "warm"
+    else:
+        return "cold"
+userInput = float(input("Enter temp: "))
+# print(weather(userInput))
+
+name = input("Enter your name: ")
+message = f"Hello {name}"
+print(message)
